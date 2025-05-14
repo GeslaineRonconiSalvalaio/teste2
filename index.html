@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Meu Site Estilo VS Code</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", sans-serif;
+      background-color: #1e1e1e;
+      color: #d4d4d4;
+    }
+    .topbar {
+      background-color: #333;
+      color: #fff;
+      padding: 10px 20px;
+      font-size: 16px;
+    }
+    .sidebar {
+      position: fixed;
+      top: 40px;
+      left: 0;
+      bottom: 0;
+      width: 60px;
+      background-color: #252526;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 10px;
+    }
+    .sidebar div {
+      width: 30px;
+      height: 30px;
+      margin: 10px 0;
+      background-color: #007acc;
+      border-radius: 4px;
+    }
+    .content {
+      margin-left: 60px;
+      padding: 20px;
+    }
+    h1 {
+      color: #569cd6;
+    }
+    a {
+      color: #4fc1ff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="topbar">Meu Site</div>
+
+  <div class="sidebar">
+    <div title="Explorador"></div>
+    <div title="Busca"></div>
+    <div title="Git"></div>
+    <div title="Extensões"></div>
+  </div>
+
+  <div class="content">
+    <h1>Olá, mundo!</h1>
+    <p>Este é um site simples com aparência inspirada no VS Code.</p>
+
+    <h2>Sobre mim</h2>
+    <p>Sou um desenvolvedor apaixonado por tecnologia e código aberto.</p>
+
+    <h2>Projetos</h2>
+    <ul>
+      <li><a href="#">Projeto 1</a></li>
+      <li><a href="#">Projeto 2</a></li>
+    </ul>
+
+    <h2>Contato</h2>
+    <p>Você pode me encontrar em <a href="https://github.com/seuusuario" target="_blank">github.com/seuusuario</a></p>
+  </div>
+</body>
+</html>
